@@ -1,0 +1,80 @@
+services:
+  # dbt is used for transformation
+  dbt_wh:
+    build:
+      context: .
+      dockerfile: dbt_wh/Dockerfile  # custom docker file
+    container_name: dbt-wh
+    working_dir: /app/dbt_wh
+    volumes:
+      - .:/app # mount whole app, restrict if becomes bottle-neck                           
+    environment:
+      - DBT_PROFILES_DIR=/app/dbt_wh # configure dbt to look profiles file inside the dbt folder      
+    command: >
+      sh -c "
+        dbt debug &&  # check dbt configuration
+        chown -R 1000:1000 /app/data/db &&  # give Superset container access to DuckDB
+        tail -f /dev/null  # keep container running in dev
+      "
+
+  # extracts is python env used for extracting data from sources via custom scripts
+  extractor:
+    build:
+      context: .
+      dockerfile: extract/Dockerfile  # custom docker file
+    container_name: extractor
+    working_dir: /app/extract
+    volumes:
+      - .:/app # mount whole app, restrict if becomes bottle-neck
+    command: tail -f /dev/null # update dev changes to container   
+
+  # airflow setup
+  airflow:
+    build:
+      context: .
+      dockerfile: airflow/Dockerfile
+    container_name: airflow
+    restart: always
+    depends_on:
+      - dbt_wh
+      - extractor
+    environment:
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - AIRFLOW__CORE__EXECUTOR=SequentialExecutor
+      - AIRFLOW__CORE__FERNET_KEY=TR0l0F4jz3XgtEV8rW5eVhw_7TwTYmEqZDsZa3cnkHA=
+      - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=False
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - /var/run/docker.sock:/var/run/docker.sock
+      - .:/app
+    command: >
+      bash -c "airflow db init &&
+               airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com &&
+               airflow scheduler & airflow webserver"
+
+  # superset for powerbi client
+  # you have to go database settings => other connection => sqlalchemy string => duckdb:////app/data/warehouse.duckdb to connect to db
+  superset:
+    build:
+      context: .
+      dockerfile: superset/Dockerfile
+    container_name: superset
+    ports:
+      - "8088:8088"
+    environment:
+      - SUPERSET_SECRET_KEY=admin
+    volumes:
+      - ./data/db:/app/data
+    depends_on:
+      - dbt_wh
+    command: >
+      bash -c "
+        superset db upgrade &&
+        superset fab create-admin --username admin --firstname Admin --lastname User --email admin@example.com --password admin || true &&
+        superset init &&
+        superset run -h 0.0.0.0 -p 8088"
+
+
+

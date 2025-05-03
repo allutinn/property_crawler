@@ -1,0 +1,6 @@
+dbt_wh:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ../data/db/warehouse.duckdb
