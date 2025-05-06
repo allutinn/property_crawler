@@ -1,1 +1,5 @@
-.venv
+test
+data/db
+data/raw
+__pycache__/
+extract/url_store.json

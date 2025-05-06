@@ -1,15 +1,17 @@
 services:
   # dbt is used for transformation
   dbt_wh:
+    container_name: dbt-wh
     build:
       context: .
       dockerfile: dbt_wh/Dockerfile  # custom docker file
-    container_name: dbt-wh
     working_dir: /app/dbt_wh
     volumes:
       - .:/app # mount whole app, restrict if becomes bottle-neck                           
     environment:
       - DBT_PROFILES_DIR=/app/dbt_wh # configure dbt to look profiles file inside the dbt folder      
+    # set user to root so airflow can call other containers in dags (executor & dbt-wh)
+    user: "0:0"
     command: >
       sh -c "
         dbt debug &&  # check dbt configuration
@@ -19,21 +21,27 @@ services:
 
   # extracts is python env used for extracting data from sources via custom scripts
   extractor:
+    container_name: extractor
     build:
       context: .
       dockerfile: extract/Dockerfile  # custom docker file
-    container_name: extractor
     working_dir: /app/extract
     volumes:
       - .:/app # mount whole app, restrict if becomes bottle-neck
+      - ./data/raw:/app/data/raw 
     command: tail -f /dev/null # update dev changes to container   
+    environment:
+      - REDIS_HOST=redis        # <- service name, _not_ localhost
+      - REDIS_PORT=6379         # optional (default is fine)
+    depends_on:
+      - redis
 
   # airflow setup
   airflow:
+    container_name: airflow
     build:
       context: .
       dockerfile: airflow/Dockerfile
-    container_name: airflow
     restart: always
     depends_on:
       - dbt_wh
@@ -43,12 +51,19 @@ services:
       - AIRFLOW__CORE__EXECUTOR=SequentialExecutor
       - AIRFLOW__CORE__FERNET_KEY=TR0l0F4jz3XgtEV8rW5eVhw_7TwTYmEqZDsZa3cnkHA=
       - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=False
+      
+      # Force host 
+      - HOST_UID=1000
+      - HOST_GID=1000
+      - TARGET_PATH=/app/data/db
     ports:
       - "8080:8080"
     volumes:
       - ./airflow/dags:/opt/airflow/dags
       - /var/run/docker.sock:/var/run/docker.sock
-      - .:/app
+
+    # set user to root so airflow can call other containers in dags (executor & dbt-wh)
+    user: "0:0"
     command: >
       bash -c "airflow db init &&
                airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com &&
@@ -57,10 +72,10 @@ services:
   # superset for powerbi client
   # you have to go database settings => other connection => sqlalchemy string => duckdb:////app/data/warehouse.duckdb to connect to db
   superset:
+    container_name: superset
     build:
       context: .
       dockerfile: superset/Dockerfile
-    container_name: superset
     ports:
       - "8088:8088"
     environment:
@@ -76,5 +91,18 @@ services:
         superset init &&
         superset run -h 0.0.0.0 -p 8088"
 
+  # We are using redis as a queu for crawling links when pushed into queu 
+  redis:
+    image: redis:7
+    container_name: redis
+    
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: ["redis-server", "--appendonly", "yes"]
+  
+volumes:
+  redis_data:
 
 

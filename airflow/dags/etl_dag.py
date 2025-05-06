@@ -16,12 +16,14 @@ with DAG(
 
     extract = BashOperator(
         task_id='run_extractor',
-        bash_command='docker exec extractor python test_extract.py'
+        bash_command='docker exec extractor python test_extract.py',
+        do_xcom_push=True
     )
 
     transform = BashOperator(
         task_id='run_dbt',
-        bash_command='docker exec dbt-wh dbt run'
+        bash_command='docker exec dbt-wh dbt run',
+        do_xcom_push=True
     )
 
     extract >> transform

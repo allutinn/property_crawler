@@ -1,0 +1,577 @@
+{
+  "id": 2096156,
+  "friendlyId": "595885",
+  "status": "PUBLISHED",
+  "text": "Paritalokiinteistö läheltä Joroisten kirkonkylää!\nTalo on Antiboffin rakennuttama majatalo, jossa 1907 asti asui kunnanlääkäri, jonka jälkeen taloon tuli Joroisten Osuuskauppa. Vuonna 1923 taloon muutti kunnantoimisto. \nTalo toimii tätä nykyä paritalona, jossa on kaksi huoneistoa ja saunaosasto. \nAsunto 2 on 69 m² ja se on vuokrattuna. Asunto 1 on 53 m² ja se on tällä hetkellä tyhjillään. \nLisäksi pihalta löytyy autotalli/varastorakennus. \nRakennus on peruskorjattu v. 1983 Joroisten kunnan toimesta ja se on kaavassa suojeltu rakennus. \nMikäli kiinnostus heräsi, niin käydään tutustumassa kohteeseen paikan päällä.",
+  "creationTime": 1746454254008,
+  "modificationTime": 1746454254008,
+  "publishingTime": 1746454253995,
+  "availabilityDescription": "Vapautuu: As. 2, 69 m², talli ja varasto vuokrattu",
+  "mapVisible": true,
+  "sellingPrice": 39500,
+  "links": [
+    {
+      "id": 1417659,
+      "linkId": 1420092,
+      "type": "ADDITIONAL_INFORMATION",
+      "title": "Toimittajan kohdetiedot",
+      "url": "http://op-koti.fi/kohde/595885"
+    }
+  ],
+  "hasPdfBrochure": false,
+  "announcementContactInfo": {
+    "name": "Tuomas Venäläinen",
+    "phone": "040 184 1015",
+    "title": "Kiinteistönvälittäjä, LKV",
+    "imageUri": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/agent/import/41383e893b76788fdf9f4f871772c49e/6ecf47e09e8e10310838692e39ed90e5/ORIGINAL.jpeg",
+    "isPrivateSeller": false,
+    "officeName": "OP Koti Itä-Suomi Oy LKV, Varkaus",
+    "officeId": 586,
+    "officeNumber": 31276,
+    "officeLogoUri": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/ogroup/logo/customerlogo23_13.jpg",
+    "officeStreetAddressLineOne": "Kauppakatu 54",
+    "officePostCode": "78200",
+    "officePostOffice": "VARKAUS",
+    "officeMunicipality": "Varkaus",
+    "officeCountry": "Suomi",
+    "customerGroupId": 23,
+    "customerGroupName": "OPKK (AT & EO &VO)",
+    "officePhoneNumber": "050 344 0808"
+  },
+  "property": {
+    "specificType": "RESIDENTIAL",
+    "id": 2122327,
+    "propertyType": "RESIDENTIAL",
+    "geoCode": {
+      "latitude": 62.191547,
+      "longitude": 27.805854,
+      "accuracy": "ADDRESS"
+    },
+    "country": {
+      "code": "FI",
+      "defaultName": "Suomi"
+    },
+    "region": {
+      "code": "FI_PSAVO",
+      "defaultName": "Pohjois-Savo"
+    },
+    "municipality": {
+      "code": "FI_PSAVO_JOROINEN",
+      "defaultName": "Joroinen"
+    },
+    "postCode": {
+      "postCodeKey": "FI_PSAVO_JOROINEN_79600_JOROINEN",
+      "postCode": "79600",
+      "postArea": "JOROINEN"
+    },
+    "street": {
+      "code": "FI_PSAVO_JOROINEN_79600_JOROINEN_PIEKSAMAENTIE",
+      "defaultName": "Pieksämäentie"
+    },
+    "houseNumber": "7",
+    "regionNameFreeForm": "Joroinen",
+    "municipalityNameFreeForm": "Joroinen",
+    "districtNameFreeForm": "Kirkonkylä",
+    "postCodeFreeForm": "79600 JOROINEN",
+    "streetAddressFreeForm": "Pieksämäentie 7",
+    "plot": {
+      "id": 2175413,
+      "plotName": "Villa Pohjoistalo, 52:22",
+      "plotNumber": "171-402-52-22",
+      "plotDescription": "Maapohjan tyyppi: Tila",
+      "plotArea": 1860,
+      "holdingType": "OWN",
+      "zoningInfo": "Asemakaava (ohjeellinen tonttijako), alkuperäisiä lupa-asiakirjoja ei saatavilla.. Joroisten kunta\nLisätietoja kaavoituksesta: Joroisten kunta",
+      "additionalBuildingsDescription": "Hirsi-/puurankarakenteinen piharakennus, varastotiloja ja vanhat huussit.",
+      "constructionRightDTO": {
+        "id": 371425,
+        "description": "Kokonaisrakennusoikeus 465 m². Tällä kiinteistöllä huomioitavaa on suojelumerkintä (Pohjoistalo SR 09.611 R, Y/P). AO /s Alue, jolla ympäristön peruspiirteet säilytetään ja täydennysrakentaminen sopeutetaan ympäristöön ja olemassa olevaan rakennuskantaan mm. sijainnin, mittakaavan, tyylin ja värityksen osalta. Rakentamatta jäävällä tontin osalla on olemassa oleva puusto säilytettävä. Rakennusluvan asemapiirroksessa on esitettävä säilytettävä puusto ja rakennustyön johdosta kaadettava puusto. Ennen rakennushankkeen aloittamista on säilytettävä puusto tarvittaessa suojattava. Käytetty rakennusoikeus ilmoitettu rakennusvalvonnan tietojen mukaan."
+      }
+    },
+    "shore": {
+      "id": 480240,
+      "shoreRightType": "NOT_KNOWN"
+    },
+    "periodicChargesAdditionalInfo": "Sähkö: n. 12 000 - 16 000 kWh/vuosi . Kiinteistövero: 296,76 €/2024. .\nKiinteistövero: 296,76 €/2024",
+    "images": {
+      "74839062": {
+        "id": 74839062,
+        "propertyImageType": "MAIN",
+        "ordinal": 0,
+        "image": {
+          "id": 74839062,
+          "uuid": "34da85b8-19be-4f57-bceb-671da816dab9",
+          "uri": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/property/import/156/2096156/0e76b9541118d347871c0e0e51d244c4/bc530af1fa7dd2d86a8e97f3eeb6ec5a/ORIGINAL.jpeg"
+        }
+      },
+      "74839063": {
+        "id": 74839063,
+        "propertyImageType": "FLOOR_PLAN",
+        "ordinal": 1,
+        "image": {
+          "id": 74839063,
+          "uuid": "611080f6-ae16-4f34-951e-e1631ba89744",
+          "uri": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/property/import/156/2096156/0e76b9541118d347871c0e0e51d244c4/1eab4a89171eec3a608521cd14864607/ORIGINAL.jpeg"
+        }
+      },
+      "74839064": {
+        "id": 74839064,
+        "propertyImageType": "OTHER",
+        "ordinal": 2,
+        "image": {
+          "id": 74839064,
+          "uuid": "6f1d1d81-5efd-4698-8693-44b653758778",
+          "uri": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/property/import/156/2096156/0e76b9541118d347871c0e0e51d244c4/1196a059b4587520355b8dec92b8cae1/ORIGINAL.jpeg"
+        }
+      },
+      "74839065": {
+        "id": 74839065,
+        "propertyImageType": "OTHER",
+        "ordinal": 3,
+        "image": {
+          "id": 74839065,
+          "uuid": "7030d675-a5d1-409b-a997-7bbd05712c66",
+          "uri": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/property/import/156/2096156/0e76b9541118d347871c0e0e51d244c4/e837ac24511ac1ad898bea0c477b4444/ORIGINAL.jpeg"
+        }
+      },
+      "74839066": {
+        "id": 74839066,
+        "propertyImageType": "OTHER",
+        "ordinal": 4,
+        "image": {
+          "id": 74839066,
+          "uuid": "d49598bf-13b6-4b5c-a9f5-2d3c18d2de7d",
+          "uri": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/property/import/156/2096156/0e76b9541118d347871c0e0e51d244c4/fc43baaba11d77f0790bc187167e0008/ORIGINAL.jpeg"
+        }
+      },
+      "74839067": {
+        "id": 74839067,
+        "propertyImageType": "OTHER",
+        "ordinal": 5,
+        "image": {
+          "id": 74839067,
+          "uuid": "6861d5c7-2755-4836-bd7c-60ba8a56a19f",
+          "uri": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/property/import/156/2096156/0e76b9541118d347871c0e0e51d244c4/f31eb645eec043f6b3dbf4c5e7236967/ORIGINAL.jpeg"
+        }
+      },
+      "74839068": {
+        "id": 74839068,
+        "propertyImageType": "OTHER",
+        "ordinal": 6,
+        "image": {
+          "id": 74839068,
+          "uuid": "1b12d93c-bf6f-4f0a-809d-6801fe6895d8",
+          "uri": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/property/import/156/2096156/0e76b9541118d347871c0e0e51d244c4/1f64a5425a67e40f2fbc144c0bd197b5/ORIGINAL.jpeg"
+        }
+      },
+      "74839069": {
+        "id": 74839069,
+        "propertyImageType": "OTHER",
+        "ordinal": 7,
+        "image": {
+          "id": 74839069,
+          "uuid": "b5eda227-5566-4afc-8889-95eddd8ccc2b",
+          "uri": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/property/import/156/2096156/0e76b9541118d347871c0e0e51d244c4/e193d34217472ae2cb3cbaad21b2c958/ORIGINAL.jpeg"
+        }
+      },
+      "74839070": {
+        "id": 74839070,
+        "propertyImageType": "OTHER",
+        "ordinal": 8,
+        "image": {
+          "id": 74839070,
+          "uuid": "49355f6b-4601-4113-b557-eb8ceee70853",
+          "uri": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/property/import/156/2096156/0e76b9541118d347871c0e0e51d244c4/5c8287694d2db34e7ea99a1a2db15291/ORIGINAL.jpeg"
+        }
+      },
+      "74839071": {
+        "id": 74839071,
+        "propertyImageType": "OTHER",
+        "ordinal": 9,
+        "image": {
+          "id": 74839071,
+          "uuid": "4fd309ed-9b0e-4ebb-9047-154145fc3d3c",
+          "uri": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/property/import/156/2096156/0e76b9541118d347871c0e0e51d244c4/15679bf0447f139b53b933a74755c4dd/ORIGINAL.jpeg"
+        }
+      },
+      "74839072": {
+        "id": 74839072,
+        "propertyImageType": "OTHER",
+        "ordinal": 10,
+        "image": {
+          "id": 74839072,
+          "uuid": "bc16d628-3d45-4c46-a361-70a5f900bc05",
+          "uri": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/property/import/156/2096156/0e76b9541118d347871c0e0e51d244c4/e0cf9f2b5864021ac698f390bb5ed876/ORIGINAL.jpeg"
+        }
+      },
+      "74839073": {
+        "id": 74839073,
+        "propertyImageType": "OTHER",
+        "ordinal": 11,
+        "image": {
+          "id": 74839073,
+          "uuid": "74b5670b-b563-4218-b30d-74013209cee9",
+          "uri": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/property/import/156/2096156/0e76b9541118d347871c0e0e51d244c4/057d6772922f68bec3abbf37fa9b64fa/ORIGINAL.jpeg"
+        }
+      },
+      "74839074": {
+        "id": 74839074,
+        "propertyImageType": "OTHER",
+        "ordinal": 12,
+        "image": {
+          "id": 74839074,
+          "uuid": "d18ec90a-0ba1-4b6c-8654-0294bb9e55fc",
+          "uri": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/property/import/156/2096156/0e76b9541118d347871c0e0e51d244c4/8bae2999061ca9391727e9941f299660/ORIGINAL.jpeg"
+        }
+      },
+      "74839075": {
+        "id": 74839075,
+        "propertyImageType": "OTHER",
+        "ordinal": 13,
+        "image": {
+          "id": 74839075,
+          "uuid": "13ea7b9e-d5d9-4c85-94f7-05f3ab2c4901",
+          "uri": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/property/import/156/2096156/0e76b9541118d347871c0e0e51d244c4/8e77558bef1d13493c15cb3ae70d9da7/ORIGINAL.jpeg"
+        }
+      },
+      "74839076": {
+        "id": 74839076,
+        "propertyImageType": "OTHER",
+        "ordinal": 14,
+        "image": {
+          "id": 74839076,
+          "uuid": "f392924f-ad9c-4143-acf0-7491ccf36363",
+          "uri": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/property/import/156/2096156/0e76b9541118d347871c0e0e51d244c4/e779c3a7ffbfca4d0e2a8d2f0533fa5b/ORIGINAL.jpeg"
+        }
+      },
+      "74839077": {
+        "id": 74839077,
+        "propertyImageType": "OTHER",
+        "ordinal": 15,
+        "image": {
+          "id": 74839077,
+          "uuid": "02907ad3-0aac-4f25-bca7-1cccc884a8dc",
+          "uri": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/property/import/156/2096156/0e76b9541118d347871c0e0e51d244c4/65f71b9701460bc08ff2df827ec7c1be/ORIGINAL.jpeg"
+        }
+      },
+      "74839078": {
+        "id": 74839078,
+        "propertyImageType": "OTHER",
+        "ordinal": 16,
+        "image": {
+          "id": 74839078,
+          "uuid": "f84f3d78-ff92-4093-9437-f95fe8188f77",
+          "uri": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/property/import/156/2096156/0e76b9541118d347871c0e0e51d244c4/80afe368c983f336d6e33b32ab151234/ORIGINAL.jpeg"
+        }
+      },
+      "74839079": {
+        "id": 74839079,
+        "propertyImageType": "OTHER",
+        "ordinal": 17,
+        "image": {
+          "id": 74839079,
+          "uuid": "ab5ba5df-2bba-472c-a043-11c08d71ecd2",
+          "uri": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/property/import/156/2096156/0e76b9541118d347871c0e0e51d244c4/f812aaff8d347d10c70db621e5c84635/ORIGINAL.jpeg"
+        }
+      },
+      "74839080": {
+        "id": 74839080,
+        "propertyImageType": "OTHER",
+        "ordinal": 18,
+        "image": {
+          "id": 74839080,
+          "uuid": "065b10c6-5568-4392-9d8c-aec3a8e948c1",
+          "uri": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/property/import/156/2096156/0e76b9541118d347871c0e0e51d244c4/0ad7d1bbf99132addc2c224570982354/ORIGINAL.jpeg"
+        }
+      },
+      "74839081": {
+        "id": 74839081,
+        "propertyImageType": "OTHER",
+        "ordinal": 19,
+        "image": {
+          "id": 74839081,
+          "uuid": "453206d0-cd90-4880-aba3-c1e13a9fad14",
+          "uri": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/property/import/156/2096156/0e76b9541118d347871c0e0e51d244c4/3a0a7731053e1e5301a89d595eabb0c3/ORIGINAL.jpeg"
+        }
+      },
+      "74839082": {
+        "id": 74839082,
+        "propertyImageType": "OTHER",
+        "ordinal": 20,
+        "image": {
+          "id": 74839082,
+          "uuid": "9612a69e-3d72-4d89-b9e5-5e3846840141",
+          "uri": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/property/import/156/2096156/0e76b9541118d347871c0e0e51d244c4/918ac2ee150e6ecc1bb5ca503a1d4096/ORIGINAL.jpeg"
+        }
+      },
+      "74839083": {
+        "id": 74839083,
+        "propertyImageType": "OTHER",
+        "ordinal": 21,
+        "image": {
+          "id": 74839083,
+          "uuid": "907a092f-ca03-4899-974e-a99f3aa1ab81",
+          "uri": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/property/import/156/2096156/0e76b9541118d347871c0e0e51d244c4/1523024458a60e3635ded859c2ea318d/ORIGINAL.jpeg"
+        }
+      },
+      "74839084": {
+        "id": 74839084,
+        "propertyImageType": "OTHER",
+        "ordinal": 22,
+        "image": {
+          "id": 74839084,
+          "uuid": "fce8fd5d-ff04-4a01-bf31-07eff85848b0",
+          "uri": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/property/import/156/2096156/0e76b9541118d347871c0e0e51d244c4/0bfb8e2abb606098b1065554304e17bf/ORIGINAL.jpeg"
+        }
+      },
+      "74839085": {
+        "id": 74839085,
+        "propertyImageType": "OTHER",
+        "ordinal": 23,
+        "image": {
+          "id": 74839085,
+          "uuid": "a8fdda84-cc9d-4d78-8964-2c0bf0f6fb8c",
+          "uri": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/property/import/156/2096156/0e76b9541118d347871c0e0e51d244c4/669bea688e3f1e1d498ea8995cf9d97f/ORIGINAL.jpeg"
+        }
+      },
+      "74839086": {
+        "id": 74839086,
+        "propertyImageType": "OTHER",
+        "ordinal": 24,
+        "image": {
+          "id": 74839086,
+          "uuid": "6cbe957f-f129-488e-9835-21e9ab71855c",
+          "uri": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/property/import/156/2096156/0e76b9541118d347871c0e0e51d244c4/e32c4cc316c8bbca897cb48dc33da0b2/ORIGINAL.jpeg"
+        }
+      },
+      "74839087": {
+        "id": 74839087,
+        "propertyImageType": "OTHER",
+        "ordinal": 25,
+        "image": {
+          "id": 74839087,
+          "uuid": "aef7e28d-ae8f-4e3a-9755-05bfb3abed4f",
+          "uri": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/property/import/156/2096156/0e76b9541118d347871c0e0e51d244c4/8f561ea95915104fc92d1c16a9352b63/ORIGINAL.jpeg"
+        }
+      },
+      "74839088": {
+        "id": 74839088,
+        "propertyImageType": "OTHER",
+        "ordinal": 26,
+        "image": {
+          "id": 74839088,
+          "uuid": "2d3b3455-30f5-4bab-8437-3d25759c90d3",
+          "uri": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/property/import/156/2096156/0e76b9541118d347871c0e0e51d244c4/2747be2975c868269e853fc65b80ccde/ORIGINAL.jpeg"
+        }
+      },
+      "74839089": {
+        "id": 74839089,
+        "propertyImageType": "OTHER",
+        "ordinal": 27,
+        "image": {
+          "id": 74839089,
+          "uuid": "79fec124-2a96-4f54-8b9a-56a45f687fdd",
+          "uri": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/property/import/156/2096156/0e76b9541118d347871c0e0e51d244c4/de53874bb48eb5a5e34cf9b72ee73433/ORIGINAL.jpeg"
+        }
+      },
+      "74839090": {
+        "id": 74839090,
+        "propertyImageType": "OTHER",
+        "ordinal": 28,
+        "image": {
+          "id": 74839090,
+          "uuid": "6c6c3dd0-3cbe-470c-bf0d-7019f49fc15c",
+          "uri": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/property/import/156/2096156/0e76b9541118d347871c0e0e51d244c4/64f62fb5383a5c30d7ae85c1c9c10e19/ORIGINAL.jpeg"
+        }
+      }
+    },
+    "periodicCharges": [
+      {
+        "id": 4524977,
+        "periodicCharge": "PROPERTY_TAX",
+        "price": 296.76,
+        "chargePeriod": "YEAR"
+      }
+    ],
+    "share": false,
+    "renovationsDoneDescription": "Kohde on peruskorjattu v. 1983 Joroisten kunnan toimesta.\nVesimittari on uusittu 9/2017.\nHuoneistojen kuivien tilojen lattioihin on asennettu laminaatit v. v. 2015-2016.\nKeittiökaappeihin on asennettu käytetyt ovet v. 2016-2018.\nVesikate on maalattu v. 2018.\nJulkisivut on maalattu v. 2021.\nKiuas on uusittu v. 2021.\nSisäseiniä on maalattu ja tapetoitu v. 2017-2018.\nYhteisen pesuhuoneen lattiapinnoite ja seinien pinnoitteet ovat uusittu",
+    "additionalAreaMeasurementInformation": "Kerrosala ilmoitettu DVV:n rakennuksen tiedot otteiden mukaan. \nPiirustuksissa pinta-alat: as 1 2h,k 69 m2. as 2 2h,k 53 m2. saunaosasto 23 m2.",
+    "residentialPropertyType": "DETACHED_HOUSE",
+    "ownershipType": "OWN",
+    "newProperty": false
+  },
+  "residenceDetailsDTO": {
+    "totalRoomCount": 4,
+    "heatingSystemsDescription": "Sähkö",
+    "buildingConstructionAndSurfaceMaterialDescription": "Rakennusmateriaali: Hirsi\nPintamateriaali: Keittiö: Laminaatti / maalattu. Olohuone: Laminaatti / maalattu. Makuuhuone 1: Laminaatti / maalattu. Makuuhuone 2: Laminaatti / maalattu. Sauna: Muovi / paneeli. Kylpyhuone: Muovi / muovi.",
+    "outerRoofTypeDescription": "Vinkkeliauma",
+    "outerRoofMaterial": "SHEET_METAL",
+    "outerRoofMaterialDescription": "Pelti. Vesikate on uusittu tietojen mukaan v. 1983, muilta osin alkuperäinen.",
+    "energyCertificate": {
+      "id": 1706884,
+      "energyCertificateDescription": "Kohteella ei ole lain edellyttämää energiatodistusta ja sen vuoksi energialuokka ei ole tiedossa"
+    },
+    "roomCount": "FOUR_ROOMS",
+    "roomStructure": "Kaksi huoneistoa ja saunaosasto",
+    "floorCount": 1,
+    "livingArea": 122,
+    "totalArea": 174,
+    "kitchenDescription": "Jääkaappi, lattialiesi, astianpesukone Asunto 1, kaapistot.",
+    "bathroomDescription": "Sauna, sähkökiuas, kylpyhuone, suihku, kiinteät valaisimet.",
+    "constructionFinishedYear": 1899,
+    "usageStartedYear": 1899,
+    "inspection": {
+      "id": 2006501
+    },
+    "generalDwellingFeatures": [
+      "OWN_SAUNA"
+    ],
+    "heatingSystems": [
+      "ELECTRIC"
+    ]
+  },
+  "canReceiveLeads": true,
+  "leadOptions": {
+    "showWantToBeContactedOption": true,
+    "showWantPropertyEstimationOption": true,
+    "showWantMoreDetailsOption": true,
+    "showWantToReserveBookingOption": true,
+    "showWantToOrderBrochureOption": true
+  },
+  "announcementOriginDetails": {
+    "customerItemCode": "Kipina_521642",
+    "supplierIdentifier": "vop25",
+    "dtsIntegrationSourceId": 700
+  },
+  "openBiddingInUse": false,
+  "preparsed": {
+    "title": "Kaksi huoneistoa ja saunaosasto",
+    "area": 122,
+    "price": 39500
+  },
+  "imageIds": {
+    "mainImageId": 74839062,
+    "sorted": [
+      74839062,
+      74839063,
+      74839064,
+      74839065,
+      74839066,
+      74839067,
+      74839068,
+      74839069,
+      74839070,
+      74839071,
+      74839072,
+      74839073,
+      74839074,
+      74839075,
+      74839076,
+      74839077,
+      74839078,
+      74839079,
+      74839080,
+      74839081,
+      74839082,
+      74839083,
+      74839084,
+      74839085,
+      74839086,
+      74839087,
+      74839088,
+      74839089,
+      74839090
+    ],
+    "floorPlanImageIds": [
+      74839063
+    ]
+  },
+  "productEffects": {
+    "officeLogo": {
+      "filePath": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/ogroup/logo/customerlogo23_13.jpg",
+      "targetUrl": "https://op-koti.fi?cmpid=.opkoti..huom.1.etuovi.banner.yrityslogo.ha_jn_opkoti_valitys"
+    },
+    "backgroundTexture": {},
+    "brandColors": {
+      "brandColor": "#ffffff",
+      "textColor": "#404149"
+    },
+    "promotionalImage": {
+      "imageUrl": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/ogroup/promotional/promotionalimage23_11.jpg",
+      "targetUrl": "https://op-koti.fi/kiinteistonvalitys?cmpid=.opkoti..huom.1.etuovi.banner.kohdekuvakukat.ha_jn_opkoti_valitys",
+      "useAlternativeTargetUrl": false
+    },
+    "chat": {
+      "chatEnabled": true,
+      "chatRoomKey": "586/tuomas.venalainen@op.fi",
+      "chatRealtorEmail": "tuomas.venalainen@op.fi",
+      "chatOfficeName": "OP Koti Itä-Suomi Oy LKV, Varkaus"
+    },
+    "adSlots": {
+      "banner1": {
+        "adAlternative": true
+      },
+      "banner2": {
+        "adAlternative": true
+      },
+      "banner3": {
+        "adAlternative": false,
+        "filePath": "//d3ls91xgksobn.cloudfront.net/{imageParameters}/etuovimedia/images/ogroup/banner-3/banner3image23_3.jpg",
+        "targetUrl": "https://op-koti.fi/ota-yhteytta?cmpid=.hapankki..huom.etuovi.banner.kiinteistonvalitys_vahtiviesti.kiintestonvalitys"
+      }
+    },
+    "itemPageMobileAd": {
+      "bannerMobile": {
+        "adAlternative": true
+      }
+    },
+    "itemPageImageConfiguration": {
+      "maxImageCount": 1000
+    },
+    "itemPageAlsoForSale": {
+      "scope": "office",
+      "customerGroupId": 23
+    },
+    "listPageImageConfiguration": {
+      "maxImageCount": 1
+    },
+    "officePageLink": {},
+    "openBidding": {
+      "informationPageTextColor": "#646464"
+    },
+    "loanCalculator": {
+      "enabled": true,
+      "bankName": "Osuuspankki",
+      "usesSingleBank": true
+    },
+    "videoMainImage": {
+      "enabled": false
+    },
+    "virtualPresentationMainImage": {
+      "enabled": false
+    },
+    "largerImages": {
+      "largerImagesEnabled": true,
+      "videoEnabled": false,
+      "virtualPresentationEnabled": false
+    },
+    "renovationCalculator": {
+      "enabled": true
+    },
+    "movingCalculator": {
+      "enabled": true
+    },
+    "otherServicesAd": {
+      "enabled": false
+    }
+  },
+  "additionalAnnouncementLinkList": [
+    {
+      "id": 1417659,
+      "linkId": 1420092,
+      "type": "ADDITIONAL_INFORMATION",
+      "title": "Toimittajan kohdetiedot",
+      "url": "http://op-koti.fi/kohde/595885"
+    }
+  ]
+}
