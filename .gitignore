@@ -1,5 +1,6 @@
-test
+test/venv
 #data/db
 #data/raw
 __pycache__/
+
 
