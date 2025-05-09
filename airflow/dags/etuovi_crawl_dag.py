@@ -16,8 +16,8 @@ def skip_blackout_hours(**context):
 
 with DAG(
     dag_id='fetch_links_and_crawl_apartments',
-    start_date=datetime.now(),
-    schedule_interval="*/5 * * * *",  # every 5 mins
+    start_date=datetime(2024, 1, 1),
+    schedule_interval="*/30 * * * *",  # every 5 mins
     catchup=False,
     max_active_runs=1,                # ⬅️ blocks overlap
 ) as dag:
